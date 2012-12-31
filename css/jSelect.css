@@ -1,0 +1,52 @@
+ul,li,div {
+	margin:0;
+	padding:0;
+}
+ul, li {
+	list-style: none;
+}
+/* JSelect样式 */
+.j-container {
+	position:relative;
+	width:143px;
+	height:19px;
+	border:#BCBCBC solid 1px;
+	overflow:hidden;
+}
+
+.j-select-arrrowDown {
+	background:#CCC;
+	width:10px;
+	height:13px;
+	right:2px;
+	top:3px;
+}
+.j-select-arrrowDown:hover {
+	background:#F00;
+}
+
+.j-container div {
+	color:#333;
+	padding-left:3px;
+	line-height:19px;
+}
+
+.j-select-list {
+	z-index: 1000;
+	border:#BCBCBC solid 1px;
+	text-align:left;
+	background:#FFF;
+}
+
+.j-select-list li {
+	color:#333;
+	padding-left:3px;
+	line-height:19px;
+	height:19px;
+	overflow:hidden;
+}
+
+.j-select-list li.active {
+	background:#36C;
+	color:#FFF;
+}
