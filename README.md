@@ -3,7 +3,7 @@ jSelect
 
 实现自定义的select表单选择框控件：样式根据给定的css而表现，同时，保持select的onblure事件。
 
-<h2>空间简介</h2>
+<h2>控件简介</h2>
 <div>
 	一个jquery控件，实现自定义select样式的功能，同时保证select控件的交互功能。
 </div>
